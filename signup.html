@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>Gym Sign Up</title>
+</head>
+<body>
+<main>
+    <div class="signup-container">
+        <h2>Create Your Gym Account</h2>
+        <form id="signup-form" action="signup.php" method="post">
+            <label for="fullname">Full Name</label>
+            <input type="text" id="fullname" name="fullname" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="username">Choose a Username</label>
+            <input type="text" id="username" name="username" required>
+            <label for="newpassword">Choose a Password</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Sign Up</button>
+        </form>
+        <div class="extra-options">
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+        </div>
+    </div>
+    <script src="signup.js"></script>
+</main>
+</body>
+</html>

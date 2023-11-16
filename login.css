@@ -1,0 +1,74 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('https://t4.ftcdn.net/jpg/03/70/09/35/360_F_370093526_mJLYjlxn5Jb2pMsiQeyE7PMMnCp7NY8z.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.login-container {
+    background-color: #171414;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+    color:wheat;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color:wheat;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.extra-options {
+    margin-top: 15px;
+}
+
+.extra-options a {
+    color: #007BFF; /* Link color */
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+.extra-options a:hover {
+    text-decoration: underline;
+}
+
+header{
+    text-align: center;
+}
